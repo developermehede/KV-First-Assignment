@@ -13,7 +13,14 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     
+}
+.btn:hover{
+    background-color: #F95555;
+    transition: 0.5s;
 }
 
 /* Font Styles */
@@ -48,4 +55,63 @@
     font-size: 16px;
     font-weight: 500;
     color: black;
+}
+
+/* Hero Section Styles */
+.hero-section{
+    max-width: 85%;
+    margin: 0 auto;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 115px 120px 180px;
+    text-align: center;
+}
+
+.hero-container{
+    max-width: 1360px;
+    padding: 0 250px;
+}
+.hero-sub-title{
+    max-width: 230px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 100px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.hero-container h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.hero-container h1 span{
+    color: #469165;
+}
+
+.hero-container p{
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+    margin: 16px 0 32px;
+    
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.hero-container .secondary-btn{
+    background: none;
+    border: 1px solid white;
+}
+.hero-container .secondary-btn:hover{
+    background-color: #469165;
+   
 }
